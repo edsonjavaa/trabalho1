@@ -1,0 +1,117 @@
+.bory {
+  width: 90%;
+  margin: auto;
+  font-family: serif;
+  line-height: 1.5;
+}
+
+
+
+.img {
+  width: 300px;
+  height: 250px;
+}
+
+.fts {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.job {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.job h1 {
+  font-family: "Teko", sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-left: 50px;
+}
+.job span {
+  font-size: 150px;
+  line-height: 0.9;
+}
+.p {
+  text-align: start;
+  text-indent: 50px;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+
+nav {
+	
+
+	position: relative;
+	height: 50px;
+	background-color: #95a6b9;
+	border-radius: 8px;
+	font-size: 0;
+  padding: 2px 5px;
+  display: flex;
+  
+  
+}
+.header{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 130px;
+}
+a:nth-child(3) {
+	width: 80px;
+}
+
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 0;
+	background-color: #1abc9c;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: 130px;
+	left: 100px;
+	background-color: #e74c3c;
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+	width:98px;
+	left: 222px;
+	background-color: #3498db;
+}
+
+
